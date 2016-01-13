@@ -1,0 +1,15 @@
+{
+  "name": "oneword",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "go run server/main.go"
+  },
+  "author": "CJ Apel",
+  "license": "ISC",
+  "devDependencies": {
+    "skeleton": "^0.1.2"
+  }
+}

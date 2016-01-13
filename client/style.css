@@ -1,0 +1,8 @@
+.mainText {
+  width: 75 %;
+  border-radius: 5px;
+  border: thin solid black;
+}
+.mainText:hover {
+  border: thick solid red;
+}
