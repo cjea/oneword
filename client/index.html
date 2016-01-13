@@ -8,10 +8,20 @@
   <body>
     <script src="main.js"></script>
     <div ng-app="oneword">
+
       <div ng-controller="userText as userTextVm">
-        {{userTextVm.text}}
-        <textarea class="mainText" ng-keydown="userTextVm.handleKeydown($event)"></textarea>
+
+        <div>
+          <input type="text" ng-model="userTextVm.wordCount" />
+          <div class="startBtn" ng-click="userTextVm.setWordsGoal(userTextVm.wordCount)">get started</div>
+        </div> 
+
+        <div ng-if="userTextVm.wordsGoal">
+          <textarea class="mainText" ng-keydown="userTextVm.handleKeydown($event)"></textarea>
+        </div>
+
       </div>
+
     </div>
   </body>
 </html>
