@@ -1,8 +1,37 @@
-.mainText {
-  width: 75 %;
+body {
+  background: url(nature.jpg);
+  background-size: 100% 100%;
+  font-family: 'Dekko', cursive;
+}
+
+#mainText {
+  width: 80%;
   border-radius: 5px;
   border: thin solid black;
+  text-align: center;
+  font-size: 2em;
+  height: 2.5em;
+  line-height: 200%;
+  resize: none;
 }
-.mainText:hover {
-  border: thick solid red;
+
+.wordCountInput {
+  height: 2.5em;
+  width: 15%;
+  text-align: center;
+  font-size: 2em;
+  line-height: 200%;
+}
+.button {
+  cursor: pointer;
+}
+.container {
+  text-align: center;
+}
+.offset-vertical-250 {
+  margin-top: 250px;
+}
+
+.bigText {
+  font-size: 3em;
 }

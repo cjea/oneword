@@ -13,7 +13,7 @@ func main() {
 }
 
 func mainHandler(w http.ResponseWriter, r *http.Request) {
-  target := ""
+  var target string
   if r.URL.Path == "/" {
     target = "/index.html"
   } else {
